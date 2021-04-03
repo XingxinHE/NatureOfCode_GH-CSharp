@@ -1,0 +1,6 @@
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\natureOfCode.dll
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\natureOfCode.pdb
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.csprojAssemblyReference.cache
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\natureOfCode.dll
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\natureOfCode.pdb
