@@ -6,3 +6,12 @@ C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\ob
 C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.pdb
 C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\Noises.dll
 C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.csproj.CopyComplete
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\bin\Introduction.dll
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\bin\Introduction.pdb
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.csprojAssemblyReference.cache
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.Properties.Resources.resources
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.csproj.GenerateResource.cache
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.csproj.CopyComplete
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.dll
+C:\E-Architecture\Computational Design\natureOfCode\NatureOfCode_GH-CSharp\Introduction\Introduction\obj\Debug\Introduction.pdb
