@@ -9,11 +9,10 @@ namespace Introduction
     {
 
         public Walker walker = new Walker(0,0);
-        public List<Point3d> randomWalkers = new List<Point3d>();
 
         public randomWalker()
           : base("Random Walker", "RndWalker",
-              "The random walker in the intro section",
+              "The random walker in the intro section(Timer Required)",
               "NOC", "Intro")
         {
         }
@@ -21,7 +20,7 @@ namespace Introduction
 
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddBooleanParameter("Reset", "Reset", "Reset the walker", GH_ParamAccess.item);
+            pManager.AddBooleanParameter("Reset", "Reset", "Reset the walker", GH_ParamAccess.item, false);
         }
 
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)

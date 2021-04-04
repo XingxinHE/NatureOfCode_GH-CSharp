@@ -1,6 +1,8 @@
-C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\natureOfCode.dll
-C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\natureOfCode.pdb
 C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.csprojAssemblyReference.cache
 C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
-C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\natureOfCode.dll
-C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\natureOfCode.pdb
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\Introduction.dll
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\Introduction.pdb
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.dll
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.pdb
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\bin\Noises.dll
+C:\E-Architecture\Computational Design\natureOfCode\Introduction\Introduction\obj\Debug\Introduction.csproj.CopyComplete
