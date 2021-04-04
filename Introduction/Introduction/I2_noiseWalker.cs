@@ -52,22 +52,14 @@ namespace Introduction
             DA.SetData("Walker", new Point3d(walker.x, walker.y, 0));
         }
 
-        /// <summary>
-        /// Provides an Icon for the component.
-        /// </summary>
         protected override System.Drawing.Bitmap Icon
         {
             get
             {
-                //You can add image files to your project resources and access them like this:
-                // return Resources.IconForThisComponent;
-                return null;
+                return Properties.Resources.NoiseWalker;
             }
         }
 
-        /// <summary>
-        /// Gets the unique ID for this component. Do not change this ID after release.
-        /// </summary>
         public override Guid ComponentGuid
         {
             get { return new Guid("67bc6256-ca03-460f-9975-ed9a67bd35c6"); }

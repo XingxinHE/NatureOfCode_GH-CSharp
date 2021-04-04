@@ -44,9 +44,6 @@ namespace Introduction
 
             DA.SetData("Walker", new Point3d(walker.x, walker.y, 0));
 
-
-
-            
         }
 
 
@@ -54,17 +51,10 @@ namespace Introduction
         {
             get
             {
-                // You can add image files to your project resources and access them like this:
-                //return ;
                 return Properties.Resources.RandomWalker;
             }
         }
 
-        /// <summary>
-        /// Each component must have a unique Guid to identify it. 
-        /// It is vital this Guid doesn't change otherwise old ghx files 
-        /// that use the old ID will partially fail during loading.
-        /// </summary>
         public override Guid ComponentGuid
         {
             get { return new Guid("1bd923c2-ff50-4a6a-9021-67800732e591"); }

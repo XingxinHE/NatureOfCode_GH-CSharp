@@ -63,9 +63,39 @@ namespace Introduction.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NoiseWalker {
+            get {
+                object obj = ResourceManager.GetObject("NoiseWalker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NoiseWalker_noTimer {
+            get {
+                object obj = ResourceManager.GetObject("NoiseWalker_noTimer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RandomWalker {
             get {
                 object obj = ResourceManager.GetObject("RandomWalker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RandomWalker_noTimer {
+            get {
+                object obj = ResourceManager.GetObject("RandomWalker_noTimer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
