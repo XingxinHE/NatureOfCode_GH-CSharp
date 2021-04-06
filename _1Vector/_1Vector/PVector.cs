@@ -22,11 +22,29 @@ namespace _1Vector
             x += v.x;
             y += v.y;
         }
-
         public void Sub(PVector v)
         {
             x -= v.x;
             y -= v.y;
+        }
+        public void Mul(double n)
+        {
+            x *= n;
+            y *= n;
+        }
+        public void Div(double n)
+        {
+            x /= n;
+            y /= n;
+        }
+        public double Mag()
+        {
+            return Math.Sqrt(x*x + y*y);
+        }
+        public void Normalize()
+        {
+            double m = Mag();
+            Div(m);
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Grasshopper.Kernel;
 using Rhino.Geometry;
+using Rhino.DocObjects;
 
 // In order to load the result of this wizard, you will also need to
 // add the output bin/ folder of this project to the list of loaded
@@ -11,7 +12,7 @@ using Rhino.Geometry;
 
 namespace _1Vector
 {
-    public class VectorComponent : GH_Component
+    public class vectorSubtraction : GH_Component
     {
         /// <summary>
         /// Each implementation of GH_Component must provide a public 
@@ -20,10 +21,10 @@ namespace _1Vector
         /// Subcategory the panel. If you use non-existing tab or panel names, 
         /// new tabs/panels will automatically be created.
         /// </summary>
-        public VectorComponent()
-          : base("_1Vector", "Nickname",
-              "Description",
-              "Category", "Subcategory")
+        public vectorSubtraction()
+          : base("Vector Subtraction", "Subtraction",
+              "Subtraction",
+              "NOC", "1_Vector")
         {
         }
 
@@ -32,6 +33,7 @@ namespace _1Vector
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
+
         }
 
         /// <summary>
@@ -39,6 +41,8 @@ namespace _1Vector
         /// </summary>
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
+            pManager.AddPointParameter("Cursor Point", "Cursor", "Cursor", GH_ParamAccess.item);
+            pManager.AddLineParameter("Line", "Line", "Line between cursor and origin", GH_ParamAccess.item);
         }
 
         /// <summary>
@@ -48,6 +52,17 @@ namespace _1Vector
         /// to store data in output parameters.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
+            //declare variables
+            var doc = Rhino.RhinoDoc.ActiveDoc;
+            var view = doc.Views.ActiveView;
+            var xform = view.ActiveViewport.GetTransform(Rhino.DocObjects.CoordinateSystem.Screen, Rhino.DocObjects.CoordinateSystem.World);
+            Point3d cursor = new Rhino.Geometry.Point3d(Rhino.UI.MouseCursor.Location.X, Rhino.UI.MouseCursor.Location.Y, 0.0);
+            cursor.Transform(xform);
+
+            Line lineCursorOrigin = new Line(cursor, new Point3d(0, 0, 0));
+
+            DA.SetData("Cursor Point", cursor);
+            DA.SetData("Line", lineCursorOrigin);
         }
 
         /// <summary>

@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{28068A61-A270-4F61-99EC-325AFB8ACAC5}</ProjectGuid>
+    <ProjectGuid>{136CA775-A1A1-48ED-A0A4-1BEA31A25ECD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_1Vector</RootNamespace>
@@ -56,8 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PVector.cs" />
-    <Compile Include="vectorSubtraction.cs" />
+    <Compile Include="VectorComponent.cs" />
     <Compile Include="_1VectorInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,7 +69,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(TargetPath)" "C:\Users\xingx\AppData\Roaming\Grasshopper\Libraries\natureOfCode_1.gha"
+    <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).gha"
 Erase "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
