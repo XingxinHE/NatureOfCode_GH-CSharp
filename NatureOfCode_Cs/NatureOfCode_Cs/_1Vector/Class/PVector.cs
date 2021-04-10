@@ -44,7 +44,10 @@ namespace NatureOfCode_Cs._1Vector
         public void Normalize()
         {
             double m = Mag();
-            Div(m);
+            if (m != 0)
+            {
+                Div(m);
+            }
         }
     }
 }

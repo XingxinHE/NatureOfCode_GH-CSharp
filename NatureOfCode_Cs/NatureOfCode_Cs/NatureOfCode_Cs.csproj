@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="Introduction\Class\Walker.cs" />
     <Compile Include="_1Vector\Class\PVector.cs" />
+    <Compile Include="_1Vector\Component\vectorBouncingBall.cs" />
+    <Compile Include="_1Vector\Component\vectorMagnitude.cs" />
+    <Compile Include="_1Vector\Component\vectorNormalization.cs" />
     <Compile Include="_1Vector\Component\vectorSubtraction.cs" />
     <Compile Include="_2Force\Component\MangMover.cs" />
     <Compile Include="_2Force\Class\Mover.cs" />
