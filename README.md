@@ -7,7 +7,7 @@ Ciao! Welcome to this repo. As addressed in the title, this repo aims to refacto
 Current refactored chapters are:
 
 - [x] INTRODUCTION
-- [ ] Chapter 1: VECTORS
+- [x] Chapter 1: VECTORS
 - [ ] Chapter 2: FORCES
 - [ ] Chapter 3: OSCILLATION
 - [ ] Chapter 4: PARTICLE SYSTEMS
